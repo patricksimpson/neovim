@@ -16,3 +16,10 @@ vim.keymap.set("n", "<leader>W", "<Ctrl>Wo", { desc = "Close other buffers" })
 
 vim.keymap.set("n", "<leader>v", "<cmd>vsplit<cr>", { desc = "Split veritical" })
 vim.keymap.set("n", "<leader>h", "<cmd>split<cr>", { desc = "Split horizontally" })
+
+vim.keymap.set("n", "<A-k>", "<esc>k", { desc = "Move up" })
+vim.keymap.set("n", "<A-j>", "<esc>j", { desc = "Move down" })
+vim.keymap.set("i", "<A-k>", "<esc>gk", { desc = "Move up" })
+vim.keymap.set("i", "<A-j>", "<esc>gj", { desc = "Move down" })
+vim.keymap.set("v", "<A-k>", "<esc>gk", { desc = "Move up" })
+vim.keymap.set("v", "<A-j>", "<esc>gj", { desc = "Move down" })
