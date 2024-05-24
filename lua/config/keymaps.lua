@@ -9,6 +9,10 @@ vim.keymap.set("n", "<C-f>", "<cmd>Telescope live_grep<cr>", { desc = "Find in f
 vim.keymap.set("n", "<leader>+", "<cmd>Telescope oldfiles<cr>", { desc = "Find recent buffer" })
 vim.keymap.set("n", "<leader>=", "<cmd>Telescope oldfiles<cr>", { desc = "Find recent buffer" })
 vim.keymap.set("n", "<C-g>", "<cmd>Telescope oldfiles<cr>", {}) -- map whatever you want, I use ctrl-g
+vim.keymap.set("n", "<C-[>", "<cmd>Telescope oldfiles<cr>", {}) -- map whatever you want, I use ctrl-g
+vim.keymap.set("n", "==", "<cmd>Telescope oldfiles<cr>", {}) -- map whatever you want, I use ctrl-g
+vim.keymap.set("n", "<C-m>", "<cmd>Neogit<cr>", {}) -- map whatever you want, I use ctrl-g
+vim.keymap.set("n", "<C-o>", "<cmd>Outline<cr>", {}) -- map whatever you want, I use ctrl-g
 
 vim.keymap.set("n", "<leader>wo", "<Ctrl>Wo", { desc = "Close other buffers" })
 vim.keymap.set("n", "<leader>Wo", "<Ctrl>Wo", { desc = "Close other buffers" })
